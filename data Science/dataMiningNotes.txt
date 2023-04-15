@@ -1,0 +1,69 @@
+One emerging data repository architecture is the data warehouse.This is a repository of multiple heterogeneous data sources
+organized under a unified schema at a single site to facilitate management
+decision making. Data warehouse technology includes data cleaning, data
+integration, and online analytical processing (OLAP)—that is, analysis
+techniques with functionalities such as summarization, consolidation, and
+aggregation, as well as the ability to view information from different angles.
+
+The knowledge discovery process is an iterative sequence of the following steps:
+1. Data cleaning (to remove noise and inconsistent data)
+2. Data integration (where multiple data sources may be combined)
+3. Data selection (where data relevant to the analysis task are retrieved
+   from the database)
+4. Data transformation (where data are transformed and consolidated
+   into forms appropriate for mining by performing summary or aggregation
+   operations)
+5. Data mining (an essential process where intelligent methods are
+   applied to extract data patterns)
+6. Pattern evaluation (to identify the truly interesting patterns
+   representing knowledge based on interestingness measures
+7. Knowledge presentation (where visualization and knowledge
+   representation techniques are used to present mined knowledge to users)
+
+Data mining is the process of discovering interesting patterns
+and knowledge from large amounts of data. The data sources can include
+databases, data warehouses, the Web, other information repositories, or data
+that are streamed into the system dynamically.
+
+
+Database Data
+
+A relational database is a collection of tables, each of which is assigned a
+unique name. Each table consists of a set of attributes (columns or fields)
+and usually stores a large set of tuples (records or rows). Each tuple in a
+relational table represents an object identified by a unique key and described
+by a set of attribute values. A semantic data model, such as an entity relationship
+(ER) data model, is often constructed for relational databases.
+An ER data model represents the database as a set of entities and their
+relationships.
+
+Data Warehouses
+
+A data warehouse is a repository of information collected from multiple sources,
+stored under a unified schema, and usually residing at a single site. Data
+warehouses are constructed via a process of data cleaning, data integration,
+data transformation, data loading, and periodic data refreshing.
+
+A data warehouse is usually modeled by a multidimensional data structure,
+called a data cube, in which each dimension corresponds to an attribute or
+a set of attributes in the schema, and each cell stores the value of some
+aggregate measure such as count or sum(sales_amount). A data cube
+provides a multidimensional view of data and allows the precomputation
+and fast access of summarized data.
+
+Transactional Data
+
+each record in a transactional database captures a transaction,
+such as a customer's purchase, a flight booking, or a user's clicks on a web
+page. A transaction typically includes a unique transaction identity number
+(trans_ID) and a list of the items making up the transaction, such as the
+items purchased in the transaction. A transactional database may have
+additional tables, which contain other information related to the
+transactions, such as item description, information about the salesperson or
+the branch, and so on.
+
+Data Discrimination :
+
+Data discrimination is a comparison of the general features of the target
+class data objects against the general features of objects from one or
+multiple contrasting classes.
